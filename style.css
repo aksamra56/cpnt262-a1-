@@ -1,0 +1,100 @@
+* {
+    /* Padding and margin */
+    padding: 0;
+    margin: 0;
+  }
+  
+  body, p {
+    /* Entire body paragraph */
+    padding: 40px;
+  }
+  
+  body, button {
+    /* Font size for short information page */
+    font-size: 30px;
+  }
+  
+  body {
+    /*  All the text on the page is placed in the center  */
+    text-align: center;
+  
+    
+    /* Font chosen for the page */
+    font-family: 'Montserrat';
+  }
+  
+  h1 {
+    /* Heading font */
+    font-family: 'Montserrat';
+  
+  }
+  
+  .light-mode, .light-mode-button {
+    /* Page and text contrast */ 
+    color: rgb(8, 8, 8);
+  }
+  
+  .light-mode-button:hover {
+    /* Light mode background */
+    background-color: whitesmoke;
+
+  }
+  
+  .dark-mode, .dark-mode-button {
+    /* Dark mode text colour */
+    color: whitesmoke;
+  }
+  
+  .dark-mode {
+    /* Dark mode background */
+    background-color: #001429;
+}
+
+button:hover {
+     /* Box shadow color */
+  box-shadow: 5px 5px 10px #04e3ff;
+}
+
+  main {
+    /* space created from padding*/
+    padding: 2rem;
+  }
+  
+  button {
+    /* buttons */
+    display: block;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 25px;
+
+  }
+  
+  .light-mode-button {
+    /* Light mode and hover */
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px #2B2A33;
+    border: 2px solid black;
+  }
+  
+  .light-mode-button:hover, .light-mode-button:active {
+    /* Light mode and hover  */
+    background-color: #231561;
+    color: whitesmoke;
+  }
+  
+  .dark-mode-button {
+    /* Dark mode and hover*/
+    background-color: #001429;
+    box-shadow: 10px 8px 10px whitesmoke;
+    border: 5px solid whitesmoke;
+  }
+  
+  .dark-mode-button:hover, .dark-mode-button:active {
+    /* Dark mode and hover */
+    background-color: whitesmoke;
+    color: #2B2A33;
+
+ 
+  }
+
+  
