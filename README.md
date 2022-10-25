@@ -1,4 +1,4 @@
-# cpnt262-a1-
+# cpnt262-a1
 
 # CPNT 262 Assignment 1: Push of a button
 
